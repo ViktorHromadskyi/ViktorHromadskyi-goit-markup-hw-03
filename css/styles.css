@@ -201,7 +201,7 @@ img {
 }
 
 .goals-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 /* приклади робіт */
 
@@ -268,7 +268,10 @@ img {
 }
 
 .our-team-card {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* Футер */
