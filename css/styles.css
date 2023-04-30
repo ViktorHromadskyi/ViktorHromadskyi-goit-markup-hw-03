@@ -8,6 +8,7 @@
 
 button {
   cursor: pointer;
+  display: block;
 }
 
 :root {
@@ -47,6 +48,11 @@ img {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* Хедер */
 
 .logo {
@@ -58,6 +64,7 @@ img {
   color: #4d5ae5;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
 }
 
 .logo-web {
@@ -70,10 +77,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.nav-list-item:not(:last-child) {
-  margin-right: 40px;
 }
 
 .nav-list-item:hover,
@@ -92,6 +95,7 @@ img {
   color: #434455;
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .contact:hover,
@@ -102,6 +106,7 @@ img {
 .page-header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -112,6 +117,13 @@ img {
 .nav-list {
   display: flex;
   align-items: center;
+  gap: 40px;
+}
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid#e7e9fc;
 }
 
 /*основний блок*/
@@ -120,6 +132,8 @@ img {
 
 .hero-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-title {
@@ -130,6 +144,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .order-service-btn {
@@ -137,7 +152,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -149,6 +163,9 @@ img {
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
+  max-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .order-service-btn:hover,
@@ -164,6 +181,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .goals-description {
@@ -172,6 +190,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.goals-list {
+  display: flex;
 }
 
 /* приклади робіт */
@@ -184,8 +206,13 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
+.work-examples-list {
+  display: flex;
+  gap: 24px;
+}
 /* наша команда */
 
 .our-team {
@@ -200,6 +227,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .our-team-item {
   background-color: #ffffff;
@@ -212,6 +240,9 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .our-team-position {
@@ -221,12 +252,21 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
 }
 
 /* Футер */
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-description {
@@ -235,11 +275,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .logo-web-footer {
   color: #f4f4fd;
-}
+
 
 /* portfolio */
 
