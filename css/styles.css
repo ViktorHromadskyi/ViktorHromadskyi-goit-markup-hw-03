@@ -168,7 +168,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
-  display: block
+  display: block;
 }
 
 .order-service-btn:hover,
@@ -197,8 +197,12 @@ img {
 
 .goals-list {
   display: flex;
+  gap: 24px;
 }
 
+.goals-list-item {
+  width: calc((100% - 72px) / 4);
+}
 /* приклади робіт */
 
 .work-examples-title {
@@ -234,6 +238,7 @@ img {
 }
 .our-team-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-name {
@@ -243,9 +248,8 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
-  margin-top: 32px;
-  margin-bottom: 8px;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .our-team-position {
@@ -255,13 +259,16 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
-  margin-bottom: 32px;
   text-align: center;
 }
 
 .our-team-list {
   display: flex;
   gap: 24px;
+}
+
+.our-team-card {
+  padding: 32px 16px;
 }
 
 /* Футер */
@@ -283,9 +290,24 @@ img {
 
 .logo-web-footer {
   color: #f4f4fd;
+}
 
-
+.footer-logo-link {
+  margin-bottom: 16px;
+}
 /* portfolio */
+
+.main-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.list-btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 
 .filter-btn {
   font-family: "Roboto", sans-serif;
@@ -301,12 +323,22 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   color: #ffffff;
   background: #404bbf;
+  border: 1px solid transparent;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .project-name {
@@ -315,6 +347,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .project-description {
@@ -324,4 +357,13 @@ img {
   color: #434455;
 }
 
+.project-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.project-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 /* next page */
