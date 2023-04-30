@@ -19,6 +19,34 @@ button {
 body {
   background-color: #ffffff;
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Хедер */
 
 .logo {
@@ -29,6 +57,7 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-web {
@@ -41,6 +70,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .nav-list-item:hover,
@@ -57,11 +90,28 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: flex;
+  align-items: center;
 }
 
 .contact:hover,
 .contact:focus {
   color: #404bbf;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
 }
 
 /*основний блок*/
