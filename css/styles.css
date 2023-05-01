@@ -18,6 +18,7 @@ button {
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
 
@@ -28,6 +29,7 @@ h4,
 p {
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: 0;
 }
 ul,
 ol {
@@ -63,7 +65,6 @@ img {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
 }
 
@@ -79,6 +80,7 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-left: 76px;
 }
 
 .nav-list-item:hover,
@@ -134,6 +136,7 @@ img {
 
 .hero-section {
   background-color: #2e2f42;
+  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -143,32 +146,27 @@ img {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-service-btn {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 16px 32px;
-  gap: 10px;
   min-width: 169px;
-  height: 56px;
   border: none;
-  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-service-btn:hover,
@@ -177,6 +175,10 @@ img {
 }
 
 /* наші цілі */
+
+.our-goals {
+  visibility: hidden;
+}
 
 .goals {
   font-weight: 500;
@@ -219,6 +221,7 @@ img {
 .work-examples-list {
   display: flex;
   gap: 24px;
+  margin-bottom: 120px;
 }
 /* наша команда */
 
@@ -289,6 +292,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  display: block;
 }
 
 .logo-web-footer {
@@ -299,6 +303,10 @@ img {
   margin-bottom: 16px;
 }
 /* portfolio */
+
+.filters-title {
+  visibility: hidden;
+}
 
 .main-section {
   padding-top: 96px;
