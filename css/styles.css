@@ -68,6 +68,10 @@ img {
   display: inline-block;
 }
 
+.header-logo {
+  margin-right: 76px;
+}
+
 .logo-web {
   color: #2e2f42;
 }
@@ -80,7 +84,6 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
-  margin-left: 76px;
 }
 
 .nav-list-item:hover,
@@ -206,6 +209,10 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 /* приклади робіт */
+
+.work-examples-section{
+  padding-bottom: 120px;
+}
 
 .work-examples-title {
   font-weight: 700;
