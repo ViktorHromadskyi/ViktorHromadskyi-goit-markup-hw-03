@@ -219,6 +219,10 @@ img {
 }
 /* приклади робіт */
 
+.work-examples-section {
+  padding-bottom: 120px;
+}
+
 .work-examples-title {
   font-weight: 700;
   font-size: 36px;
@@ -233,7 +237,6 @@ img {
 .work-examples-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 /* наша команда */
 
