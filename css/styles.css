@@ -55,6 +55,19 @@ img {
   padding-bottom: 120px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Хедер */
 
 .logo {
@@ -179,10 +192,6 @@ img {
 
 /* наші цілі */
 
-.our-goals {
-  visibility: hidden;
-}
-
 .goals {
   font-weight: 500;
   font-size: 20px;
@@ -209,10 +218,6 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 /* приклади робіт */
-
-.work-examples-section{
-  padding-bottom: 120px;
-}
 
 .work-examples-title {
   font-weight: 700;
@@ -310,10 +315,6 @@ img {
   margin-bottom: 16px;
 }
 /* portfolio */
-
-.filters-title {
-  visibility: hidden;
-}
 
 .main-section {
   padding-top: 96px;
